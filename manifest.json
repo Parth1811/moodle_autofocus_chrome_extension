@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Moodle autofocus Extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://moodle.iitb.ac.in/login/index.php"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
