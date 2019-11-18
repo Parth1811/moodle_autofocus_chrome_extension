@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://moodle.iitb.ac.in/login/index.php"
+        "https://moodle.iitb.ac.in/login/index.php*"
       ],
       "js": ["content.js"]
     }
